@@ -145,6 +145,7 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+##################################################################
 # SSH AGENT
 eval $(ssh-agent -s) >/dev/null
 ssh-add /home/danny/.ssh/id_ed25519 2>/dev/null
@@ -164,3 +165,5 @@ source ~/.powerlevel10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# RX 6600XT AND TENSORFLOW
+export HSA_OVERRIDE_GFX_VERSION=10.3.0
