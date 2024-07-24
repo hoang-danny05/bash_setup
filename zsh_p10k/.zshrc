@@ -131,6 +131,9 @@ alias l='ls -CF'
 # for nvim, remove if not installed yet
 alias vim='nvim'
 
+# batcat
+alias bat='batcat'
+
 ##################################################################
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
