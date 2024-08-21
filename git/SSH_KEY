@@ -1,0 +1,3 @@
+REMEMBER HOW TO MAKE A KEY!!!
+
+ssh-keygen -t ed25519 -C "EMAIL"
